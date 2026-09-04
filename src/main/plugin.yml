@@ -1,0 +1,17 @@
+name: VexoWeapons
+version: 1.0.0
+main: me.vexomc.nyxoweapons.VexoWeapons
+api-version: '1.21'
+author: VexoMC
+
+commands:
+  weapon:
+    description: Give a custom weapon
+    permission: vexomc.weapons
+  weapons:
+    description: List custom weapons
+    permission: vexomc.weapons
+
+permissions:
+  vexomc.weapons:
+    default: op
